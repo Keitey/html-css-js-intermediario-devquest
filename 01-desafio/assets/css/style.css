@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;  
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.slides{
+    display: none;
+}
+
+.mostrar{
+    display: flex;
+    align-items: center;
+}
+
+#seta-esquerda{
+    width: 56px;
+    height: 78px;
+    position: fixed;
+    top: 50%;
+    right: 95%;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+#seta-direita{
+    width: 56px;
+    height: 78px;
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    cursor: pointer;
+}
+
+.card{
+    margin-left: 180px;
+    background-color:#fff;
+    width: 35%;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.card .descricao{
+    padding: 84px 59px 83px 60px;
+}
+
+.card .descricao h2{
+    font-size: 4rem;
+    line-height: 58.59px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.card .descricao p{
+    line-height: 35px;
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+
+.card .descricao .saiba-mais{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.slide1{
+    background: url(../images/4.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slide1 .saiba-mais{
+    color:#C50000;
+}
+
+.slide2{
+    background: url(/assets/images/1.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slide2 .saiba-mais{
+    color:#D9DD10;
+}
+
+.slide3{
+    background: url(/assets/images/3.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slide3 .saiba-mais{
+    color:#A63A17;
+}
+
+.slide4{
+    background: url(/assets/images/2.jpg) center center no-repeat;
+        background-size: cover;
+    overflow: hidden;
+}
+
+.slide4 .saiba-mais{
+    color:#10ACDD;
+}

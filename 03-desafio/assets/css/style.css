@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    color: #000000;
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #df6598, #d168b0, #b96ec6, #9778d9, #6581e5);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form{
+    background: #FFFFFF;
+    width: 33%;
+    height: 64vh;
+    margin-top: 2%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13%;
+    width: 80%;
+    margin: auto 0;
+}
+
+.container-form .form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-top: 6%;
+    border-radius: 2px;
+}
+
+.container-form .form input{
+    width: 92%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0 auto 2px auto;
+    border: 1px solid #000000;
+    color: #A8A8A8;
+    padding-left: 5px;
+}
+
+
+.container-form .form input:focus{
+    border: 3px solid rgb(33, 161, 33);
+    outline: none;
+}
+
+.container-form .form textarea{
+    padding-left: 5px;
+    width: 92%;
+    height: 90px;
+    border-radius: 5px;
+    margin: 0 auto 5px auto;
+    border: 1px solid #000000;
+    resize: none;
+    color: #A8A8A8;
+}
+
+.container-form .form textarea p {
+    display: contents;
+
+}
+
+.container-form .form p {
+    margin-left: 10px;
+}
+
+.container-form .form textarea:focus{
+    border: 3px solid rgb(33, 161, 33);
+    outline: none;
+}
+
+.container-form .form p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.validacao{
+    color: rgb(165, 18, 18);
+    opacity: 0%;
+    height: 17px;
+}
+
+.container-form .form button{
+    width: 92%;
+    height: 33px;
+    margin: 5px auto;
+    background: #3CCC87;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.container .info h2{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFFFFF;
+    line-height: 23.44px;
+}
+
+.container .info p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
